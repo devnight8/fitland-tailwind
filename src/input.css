@@ -1,0 +1,19 @@
+@font-face {
+  font-family: iranSansX;
+  font-style: normal;
+  src: url("../assets/fonts/iranssansx/IRANSansXV.ttf") format("truetype");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #fa541c;
+  --color-secondry: #032340;
+}
+:root {
+  --font-iranSansX: "iranSansX", "sans-serif";
+}
+
+* {
+  font-family: var(--font-iranSansX);
+}

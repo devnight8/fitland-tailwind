@@ -1,16 +1,7 @@
-<html lang="fa" dir="rtl" >
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title><?php bloginfo('name'); ?></title>
-  <?php get_header(); ?>
-</head>
+<body class="bg-bg-body">
+    <?php wp_body_open(); ?>
+    
+    <?php get_template_part('parts/header'); ?>
+    <?php get_template_part('parts/intro'); ?>
 
-<body>
-<?php require "parts/header.php"?>
-<?php require "parts/intro.php"?>
-
-</body>
-
-</html>

@@ -20,8 +20,14 @@ Text Domain: FitLand
 }
 
 @theme {
-  --color-primary: #fa541c;
-  --color-secondary: #032340;
+  --color-primary: #6DA975;
+  --color-primary2:#E4F6E7;
+  --color-secondary: #FFA700;
+  --color-secondary2:#E4F6E7;
+  --color-text:#081035;
+  --color-bg:#FFFFFF;
+  --color-bg-body:#F5F6F9;
+
 }
 @config "../tailwind.config.js";
 :root {

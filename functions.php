@@ -1,4 +1,13 @@
 <?php
+/**
+ * Theme functions and definitions
+ */
+
+
+
+// Include WordPress core functions
+require_once(ABSPATH . 'wp-includes/functions.php');
+require_once(ABSPATH . 'wp-includes/plugin.php');
 
 
 function fitland_enqueue_assets()
@@ -9,7 +18,6 @@ function fitland_enqueue_assets()
 add_action('wp_enqueue_scripts', 'fitland_enqueue_assets');
 
 add_action('after_setup_theme', 'init_theme_fit_land');
-add_filter('show_admin_bar', '__return_true');
 
 
 function init_theme_fit_land()

@@ -1,4 +1,3 @@
-
 /*
 Theme Name: FitLand
 Theme URI: https://siteteme.ir/
@@ -20,14 +19,13 @@ Text Domain: FitLand
 }
 
 @theme {
-  --color-primary: #6DA975;
-  --color-primary2:#E4F6E7;
-  --color-secondary: #FFA700;
-  --color-secondary2:#E4F6E7;
-  --color-text:#081035;
-  --color-bg:#FFFFFF;
-  --color-bg-body:#F5F6F9;
-
+  --color-primary: #6da975;
+  --color-primary2: #e4f6e7;
+  --color-secondary: #ffa700;
+  --color-secondary2: #e4f6e7;
+  --color-text: #081035;
+  --color-bg: #ffffff;
+  --color-bg-body: #f5f6f9;
 }
 @config "../tailwind.config.js";
 :root {

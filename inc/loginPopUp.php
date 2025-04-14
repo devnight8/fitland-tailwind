@@ -1,4 +1,4 @@
-<section id="popup-login" class=" items-center justify-center hidden">
+<section id="popup-login" class=" items-center justify-center hidden absolute w-full z-30">
         <div class="bg-white w-[480px] h-[300px] flex flex-col  justify-center  rounded-md p-8 absolute top-28 m-auto ">
 
             <form action="" class="flex flex-col gap-y-4 items-center justify-center">

@@ -9,9 +9,9 @@
 </head>
 
 <body class="bg-bg-body">
-    <header class="flex items-center justify-between w-[1280px] my-4 container mx-auto p-4 bg-white rounded-full">
+    <header class="flex items-center justify-between w-[1280px] my-4 container mx-auto p-4 bg-white rounded-full shadow">
         <div class="logo">
-            <img class="max-w-full w-full" src=" <?php echo get_template_directory_uri() . '/assets/img/logo2.png' ?>" alt="logo" />
+            <a href="/siteteme"><img class="max-w-full w-full" src=" <?php echo get_template_directory_uri() . '/assets/img/logo2.png' ?>" alt="logo" /></a>
         </div>
         <div id="navbar">
             <?php get_template_part('inc/navBar'); ?>
@@ -22,4 +22,4 @@
         </div>
     </header>
 
-<?php get_template_part("inc/loginPopUp") ?>
+    <?php get_template_part("inc/loginPopUp") ?>

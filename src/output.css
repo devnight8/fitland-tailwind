@@ -20,8 +20,6 @@
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
-    --text-6xl: 3.75rem;
-    --text-6xl--line-height: 1;
     --font-weight-medium: 500;
     --font-weight-black: 900;
     --radius-md: 0.375rem;
@@ -189,18 +187,6 @@
   .relative {
     position: relative;
   }
-  .top-5 {
-    top: calc(var(--spacing) * 5);
-  }
-  .top-8 {
-    top: calc(var(--spacing) * 8);
-  }
-  .top-12 {
-    top: calc(var(--spacing) * 12);
-  }
-  .top-14 {
-    top: calc(var(--spacing) * 14);
-  }
   .top-20 {
     top: calc(var(--spacing) * 20);
   }
@@ -270,15 +256,6 @@
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
-  .w-\[200px\] {
-    width: 200px;
-  }
-  .w-\[270px\] {
-    width: 270px;
-  }
-  .w-\[290px\] {
-    width: 290px;
-  }
   .w-\[480px\] {
     width: 480px;
   }
@@ -345,9 +322,6 @@
   .border-gray-100 {
     border-color: var(--color-gray-100);
   }
-  .bg-\[\#\] {
-    background-color: #;
-  }
   .bg-bg-body {
     background-color: var(--color-bg-body);
   }
@@ -375,35 +349,20 @@
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
-  .p-3 {
-    padding: calc(var(--spacing) * 3);
-  }
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
   .p-8 {
     padding: calc(var(--spacing) * 8);
   }
-  .px-1 {
-    padding-inline: calc(var(--spacing) * 1);
-  }
-  .px-2 {
-    padding-inline: calc(var(--spacing) * 2);
-  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
-  }
-  .px-5 {
-    padding-inline: calc(var(--spacing) * 5);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
-  }
-  .py-4 {
-    padding-block: calc(var(--spacing) * 4);
   }
   .text-center {
     text-align: center;
@@ -420,10 +379,6 @@
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
   }
-  .text-xl {
-    font-size: var(--text-xl);
-    line-height: var(--tw-leading, var(--text-xl--line-height));
-  }
   .font-black {
     --tw-font-weight: var(--font-weight-black);
     font-weight: var(--font-weight-black);
@@ -437,9 +392,6 @@
   }
   .text-white {
     color: var(--color-white);
-  }
-  .bg-blend-multiply {
-    background-blend-mode: multiply;
   }
   .mix-blend-multiply {
     mix-blend-mode: multiply;

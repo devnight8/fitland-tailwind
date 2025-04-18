@@ -30,7 +30,19 @@ function init_theme_fit_land()
 {
     add_theme_support('wp-block-styles');
     add_theme_support('menus');
+
     add_theme_support('title-tag');
     add_theme_support('automatic-feed-links');
     add_theme_support('admin-bar', array('callback' => '__return_true'));
+
+    function register_my_menus()
+    {
+        register_nav_menus(
+            array(
+                'header-menu' => __('منوی اصلی'),
+                'extra-menu' => __('Extra Menu')
+            )
+        );
+    }
+    add_action('init', 'register_my_menus');
 }
